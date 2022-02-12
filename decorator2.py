@@ -1,5 +1,4 @@
 from datetime import datetime
-from typing import final
 
 def execution_time(func):
     def wrap(*args, **kwargs):
